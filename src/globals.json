@@ -1,0 +1,84 @@
+{
+  "midnight": {
+    "main": "#191966",
+    "dark": "#141452",
+    "darker": "#060622",
+    "darkest": "#050514",
+    "foggyLight": "#7575a3",
+    "foggy": "#33334d",
+    "foggyDark": "#393946",
+    "foggyDarker": "#2e2e38"
+  },
+  "palette": {
+    "absoluteBlack": "#000000",
+    "black": "#1B1B1B",
+    "white": "#ffffff",
+    "darkestGray": "#333333",
+    "darkerGray": "#4d4d4d",
+    "darkGray": "#666666",
+    "gray": "#949494",
+    "lightGray": "#BEBEBE",
+    "lighterGray": "#DFDFDF",
+    "lightestGray": "#F3F3F3",
+
+    "blue": "#6FA1EA",
+    "royalBlue": "#2C60C7",
+    "lightBlue": "#9BCEFA",
+    "lighterBlue": "#b6dbfb",
+    "lightestBlue": "#D2E9FD",
+
+    "green": "#00C27C",
+    "lightGreen": "#6EEB9D",
+    "lightestGreen": "#A3F4B2",
+    "lightestGreen2": "#bbf7c6",
+    "darkGreen": "#008555",
+
+    "softPink": "#FFD8CF",
+    "firePink": "#FF5309",
+
+    "darkRed": "#BA0000",
+    "lightRed": "#FDEDED",
+
+    "yellow": "#FFF67F",
+    "richYellow": "#FFDE30",
+    "lightYellow": "#FAFFB6",
+
+    "orange": "#F6A867",
+    "lightOrange": "#F6C443",
+
+    "pink": "#D259D4",
+    "lightPink": "#efc2ef",
+    "lightestPink": "#faebfa",
+    "purple": "#897AEB",
+    "lightPurple": "#c4bcf5",
+    "lighterPurple": "#d8d3f8",
+    "lightestPurple": "#ebe9fc"
+  },
+  "ansi": {
+    "normal": {
+      "blue": "#26BBD9",
+      "cyan": "#59E1E3",
+      "green": "#29D398",
+      "magenta": "#EE64AC",
+      "red": "#E95678",
+      "yellow": "#FAB795"
+    },
+    "bright": {
+      "blue": "#3FC4DE",
+      "cyan": "#6BE4E6",
+      "green": "#3FDAA4",
+      "magenta": "#F075B5",
+      "red": "#EC6A88",
+      "yellow": "#FBC3A7"
+    }
+  },
+  "alpha": {
+    "high": "E6",
+    "highHighMed": "CC",
+    "highMed": "B3",
+    "med": "80",
+    "medLow": "4D",
+    "low": "1A",
+    "none": "00"
+  }
+}
