@@ -33,7 +33,7 @@
     "editor.wordHighlightBackground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "editor.wordHighlightStrongBackground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "editorBracketMatch.background": "{{ midnight.foggyLight }}{{ alpha.med }}",
-    "editorBracketMatch.border": "{{ midnight.foggyLight }}{{ alpha.none }}",
+    "editorBracketMatch.border": "{{ palette.purple }}",
     "editorCodeLens.foreground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "editorCursor.background": "{{ midnight.darkest }}",
     "editorCursor.foreground": "{{ palette.lightGreen }}",
@@ -76,7 +76,7 @@
     "inputOption.activeBorder": "{{ palette.royalBlue }}{{ alpha.med }}",
     "inputValidation.errorBackground": "{{ palette.firePink }}{{ alpha.med }}",
     "inputValidation.errorBorder": "{{ palette.firePink }}{{ alpha.none }}",
-    "list.activeSelectionBackground": "{{ midnight.foggyDark }}{{ alpha.med }}",
+    "list.activeSelectionBackground": "{{ midnight.main }}{{ alpha.medHigh }}",
     "list.activeSelectionForeground": "{{ palette.lightestGray }}",
     "list.dropBackground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "list.errorForeground": "{{ palette.firePink }}{{ alpha.high }}",
@@ -86,19 +86,19 @@
     "list.hoverBackground": "{{ midnight.foggyDark }}{{ alpha.med }}",
     "list.hoverForeground": "{{ palette.lightestGray }}",
     "list.inactiveFocusBackground": "{{ midnight.foggyDark }}{{ alpha.med }}",
-    "list.inactiveSelectionBackground": "{{ midnight.foggyDark }}{{ alpha.medLow }}",
+    "list.inactiveSelectionBackground": "{{ midnight.foggy }}{{ alpha.medHigh }}",
     "list.inactiveSelectionForeground": "{{ palette.lightestGray }}",
     "list.warningForeground": "{{ palette.lightGreen }}{{ alpha.highMed }}",
     "panel.background": "{{ midnight.darkest }}",
     "panel.border": "{{ midnight.dark }}",
     "panelTitle.activeBorder": "{{ palette.royalBlue }}",
-    "peekView.border": "{{ midnight.dark }}",
+    "peekView.border": "{{ midnight.foggyDarker }}",
     "peekViewEditor.background": "{{ midnight.foggyDarker }}",
     "peekViewEditor.matchHighlightBackground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "peekViewResult.background": "{{ midnight.foggyDarker }}",
     "peekViewResult.matchHighlightBackground": "{{ midnight.foggyLight }}{{ alpha.med }}",
     "peekViewResult.selectionBackground": "{{ midnight.foggyDark }}{{ alpha.med }}",
-    "peekViewTitle.background": "{{ midnight.foggyDarker }}",
+    "peekViewTitle.background": "{{ midnight.foggyDark }}",
     "pickerGroup.foreground": "{{ palette.royalBlue }}{{ alpha.high }}",
     "progressBar.background": "{{ palette.royalBlue }}",
     "scrollbar.shadow": "{{ palette.black }}",
@@ -192,6 +192,7 @@
     {
       "name": "Import/Export",
       "scope": [
+        "keyword.control.as",
         "keyword.control.default",
         "keyword.control.export",
         "keyword.control.from",
@@ -199,6 +200,13 @@
       ],
       "settings": {
         "foreground": "{{ palette.royalBlue }}"
+      }
+    },
+    {
+      "name": "Import/Export *",
+      "scope": "constant.language.import-export-all",
+      "settings": {
+        "foreground": "{{ palette.yellow }}"
       }
     },
     {
