@@ -306,7 +306,10 @@
     },
     {
       "name": "This",
-      "scope": "variable.language.this",
+      "scope": [
+        "variable.language.super",
+        "variable.language.this"
+      ],
       "settings": {
         "foreground": "{{ palette.lightPurple }}",
         "fontStyle": "italic"
