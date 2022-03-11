@@ -20,7 +20,8 @@
     },
     "scripts": {
         "dev": "nodemon",
-        "build": "node scripts/build"
+        "build": "node scripts/build",
+        "install-theme": "rsync -arv --exclude .git --exclude src  --exclude node_modules --exclude scripts . ~/.vscode/extensions/petal-theme-$npm_package_version"
     },
     "dependencies": {
         "fs-extra": "^10.0.0",
