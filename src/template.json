@@ -45,8 +45,8 @@
     "editorGutter.addedBackground": "{{ palette.lightGreen }}{{ alpha._70 }}",
     "editorGutter.deletedBackground": "{{ palette.firePink }}{{ alpha._70 }}",
     "editorGutter.modifiedBackground": "{{ palette.lightBlue }}{{ alpha._70 }}",
-    "editorIndentGuide.activeBackground": "{{ palette.lightPurple }}{{ alpha._50 }}",
-    "editorIndentGuide.background": "{{ midnight.foggyDark }}{{ alpha._70 }}",
+    "editorIndentGuide.activeBackground": "{{ palette.lightPurple }}{{ alpha._60 }}",
+    "editorIndentGuide.background": "{{ midnight.foggyDarker }}",
     "editorLineNumber.activeForeground": "{{ palette.lightestGray }}{{ alpha._50 }}",
     "editorLineNumber.foreground": "{{ palette.lightestGray }}{{ alpha._10 }}",
     "editorOverviewRuler.addedForeground": "{{ palette.lightGreen }}{{ alpha._50 }}",
@@ -346,6 +346,41 @@
       ],
       "settings": {
         "foreground": "{{ palette.green }}"
+      }
+    },
+    {
+      "name": "Markdown - URL",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground":"{{ palette.royalBlue }}"
+      }
+    },
+    {
+      "name": "Markdown - Inline code snippet",
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "{{ palette.lightYellow }}"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "foreground": "{{ palette.lightBlue }}"
+      }
+    },
+    {
+      "name": "Markdown - Shell script",
+      "scope": "meta.embedded.block.shellscript",
+      "settings": {
+        "foreground": "{{ palette.lightGreen }}{{ alpha._90 }}"
+      }
+    },
+    {
+      "name": "Markdown - Code block language",
+      "scope": "fenced_code.block.language.markdown",
+      "settings": {
+        "foreground": "{{ palette.lightPurple }}{{ alpha._65 }}"
       }
     }
   ]
